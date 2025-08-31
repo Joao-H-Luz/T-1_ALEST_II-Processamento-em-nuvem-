@@ -1,0 +1,11 @@
+name: t1-alestii
+channels:
+  - defaults
+dependencies:
+  - python=3.13
+  - pandas
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - jupyter
+  - ipykernel
