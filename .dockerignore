@@ -1,0 +1,33 @@
+readme.md
+# Pastas do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env local (se tu usar)
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Git
+.git/
+.gitignore
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
+docker-compose.yml
+.devcontainer/

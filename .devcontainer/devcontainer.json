@@ -1,0 +1,20 @@
+{
+    "name": "T1-ALEST-II",
+    "build": {
+        "dockerfile": "../Dockerfile",
+        "context": ".."
+    },
+    "workspaceFolder": "/app",
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/app,type=bind"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    },
+    "remoteUser": "root"
+}
