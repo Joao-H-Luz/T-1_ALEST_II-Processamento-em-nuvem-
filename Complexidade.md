@@ -92,6 +92,27 @@ A função execution é a principal função do Algoritmo e por sua vez a com ma
 ***Otimizado* = mostra qual política é a mais rápida.**
 
 
+## *Resultados Da comparação de Tempo Dos dois Algoritimos*
+
+Arquivo   | CPU |	Temp_MIN | Temp_MAX	| Temp_MIN(V2) | Temp_MAX(V2) |
+----------|-----|------------|----------|--------------|--------------|
+caso5 	  |   4 |    0	     |    0     |	   0       |	  0       |
+caso6 	  |   4	|    0	     |    0	    |      0	   |      0       |
+caso7 	  |   4	|    0	     |    0	    |      0	   |      0       |
+caso10 	  |   5	|    0	     |    0	    |      0	   |      0       |
+caso100   |	 12 |	 0	     |    0.01	|      0	   |      0       |
+caso200   |	 16	|    0.02	 |    0.01	|      0	   |      0       |
+caso500   |	 24 |	 0.07	 |    0.05	|      0.01	   |      0.01    |
+caso1000  |	 33 |	 0.14	 |    0.14	|      0.02	   |      0.02    |
+caso2000  |	 46 |	 0.56	 |    0.53	|      0.03	   |      0.04    |
+caso5000  |	 72 |	 4.09	 |    4.02	|      0.12	   |      0.16    |
+caso10000 |	102	|    18.23	 |   18.18	|      0.32	   |      0.34    |  
+caso20000 |	143	|    113.54	 |  107.75  |	   0.70	   |    1.06      |
+
+***Temp_MIN(V2) | Temp_MAX(V2)* = Tempo do algoritimo ProcessTree(V2)**
+
+
+
 ## Gráficos
 
 ### *Gráfico Geral de Barras*
